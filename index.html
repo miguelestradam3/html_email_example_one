@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Simple Transactional Email</title>
+    <title>Github promotion email</title>
     <style media="all" type="text/css">
     /* -------------------------------------
     GLOBAL RESETS
@@ -107,9 +107,19 @@
       color: #0867ec;
       text-decoration: underline;
     }
+
+    /* -------------------------------------
+    IMAGES
+    ------------------------------------- */
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
     /* -------------------------------------
     BUTTONS
-------------------------------------- */
+    ------------------------------------- */
     
     .btn {
       box-sizing: border-box;
@@ -133,10 +143,10 @@
     
     .btn a {
       background-color: #ffffff;
-      border: solid 2px #0867ec;
+      border: solid 2px #008000;
       border-radius: 4px;
       box-sizing: border-box;
-      color: #0867ec;
+      color: #008000;
       cursor: pointer;
       display: inline-block;
       font-size: 16px;
@@ -148,12 +158,12 @@
     }
     
     .btn-primary table td {
-      background-color: #0867ec;
+      background-color: #008000;
     }
     
     .btn-primary a {
-      background-color: #0867ec;
-      border-color: #0867ec;
+      background-color: #008000;
+      border-color: #008000;
       color: #ffffff;
     }
     
@@ -192,7 +202,7 @@
     }
     
     .text-link {
-      color: #0867ec !important;
+      color: #008000 !important;
       text-decoration: underline !important;
     }
     
@@ -300,26 +310,26 @@
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
       <tr>
         <td>&nbsp;</td>
+
         <td class="container">
           <div class="content">
 
             <!-- START CENTERED WHITE CONTAINER -->
-            <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
 
               <!-- START MAIN CONTENT AREA -->
               <tr>
                 <td class="wrapper">
-                  <p>Hi there</p>
-                  <p>Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
-                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                  <h3>Learn with Microsoft</h3>
+                  <p>This would be a working example on how you can make responsive emails without needing any external resources.</p>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                     <tbody>
                       <tr>
-                        <td align="left">
-                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <td align="center">
+                          <table border="0" cellpadding="0" cellspacing="0">
                             <tbody>
                               <tr>
-                                <td> <a href="http://htmlemail.io" target="_blank">Call To Action</a> </td>
+                                <td><img src="images/microsoft.jpg" class="img-fluid"></td>
                               </tr>
                             </tbody>
                           </table>
@@ -327,8 +337,25 @@
                       </tr>
                     </tbody>
                   </table>
-                  <p>This is a really simple email template. It's sole purpose is to get the recipient to click the button with no distractions.</p>
-                  <p>Good luck! Hope it works.</p>
+                  <p>Hi there, hope this email finds you well...</p>
+                  <p>We wanted to let you know that you can use <b>Github</b> to save your code online!</p>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                    <tbody>
+                      <tr>
+                        <td align="left">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td> <a href="https://github.com/" target="_blank">Create an account now</a> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>Please <a href="https://support.github.com/" target="_blank">contact us</a> for any doubts.</p>
+                  <h4>Good luck! Hope it works.</h4>
                 </td>
               </tr>
 
@@ -336,26 +363,32 @@
               </table>
 
             <!-- START FOOTER -->
-            <div class="footer">
+            <footer class="footer">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-block">
-                    <span class="apple-link">Company Inc, 7-11 Commercial Ct, Belfast BT1 2NB</span>
-                    <br> Don't like these emails? <a href="http://htmlemail.io/blog">Unsubscribe</a>.
+                    <span class="apple-link">Random Company</span>
+                    <br> Don't like these emails? <a href="#">Unsubscribe</a>.
                   </td>
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="http://htmlemail.io">HTMLemail.io</a>
+                    Detailed and modified by: <a href="https://stackoverflow.com/users/12836774/miguel-estrada">Miguel Estrada</a>
                   </td>
                 </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
               </table>
-            </div>
-
+            </footer>
             <!-- END FOOTER -->
             
-<!-- END CENTERED WHITE CONTAINER --></div>
+        <!-- END CENTERED WHITE CONTAINER --></div>
         </td>
+
         <td>&nbsp;</td>
       </tr>
     </table>
